@@ -18,4 +18,86 @@ a{
 
 header{
     border: 1px solid rgb(55, 30, 163);
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    border: 1px solid rgb(11, 179, 221);
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.navi {
+    border: 1px solid rgb(156, 25, 75);
+    width: 600px;
+    height: 100px;
+    float: right;
+}
+
+.slide {
+    border: 1px solid rgb(187, 20, 159);
+    width: 1200px;
+    height: 300px;
+}
+
+.div {
+    border: 1px solid rgb(8, 170, 57);
+    width: 1200px;
+    height: 300px;
+}
+
+.items {
+    border: 1px solid rgb(255, 217, 0);
+    width: 1200px;
+    height: 200px;
+}
+
+.news {
+    border: 1px solid rgb(1, 39, 37);
+    width: 490px;
+    height: 200px;
+    float: left;
+}
+
+.banner {
+    border: 1px solid rgba(97, 44, 44, 0.24);
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+.short {
+    border: 1px solid rgb(164, 67, 189);
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+footer {
+    border: 1px solid rgb(211, 91, 36);
+    width: 1200px;
+    height: 100px;
+}
+
+.f_logo {
+    border: 1px solid rgb(29, 72, 136);
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.copy {
+    border: 1px solid red;
+    width: 790px;
+    height: 100px;
+    float: left;
+}
+
+.sns {
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    float: left;
 }
