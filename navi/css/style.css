@@ -35,6 +35,47 @@ header{
     border: 1px solid red;
     float: right; 
 }
+
+.menu{
+    list-style: none;
+}
+
+.menu > li{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+.menu > li > a{
+    background-color: #fff;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.menu > li:hover > a{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.sub{
+    border: 1px solid black;
+    display: none;
+}
+.sub > a{
+    background-color: #000;
+    color: #fff;   
+    display: block;
+    text-align: center; 
+    padding: 3px;
+}
+.sub > a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+
 .slide{
     width: 1200px;
     height: 300px;
