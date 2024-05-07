@@ -32,3 +32,12 @@ $('.btn > a:last-child').click(function(){
     $(this).addClass('act')
     $(this).siblings().removeClass('act')
 })
+
+// 팝업창 
+$('.op-pop').click(function(){
+    $('.pop').fadeIn()
+})
+
+$('.op-pop').click(function(){
+    $('.pop').fadeOut()
+})
