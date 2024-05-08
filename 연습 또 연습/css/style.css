@@ -45,7 +45,7 @@ header {
     border: 1px solid black;
     width: 3600px;
     height: 300px;
-    
+    font-size: 0;
 }
 .items {
     border: 1px solid black;
