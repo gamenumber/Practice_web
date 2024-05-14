@@ -194,21 +194,23 @@ footer {
 }
 .btn > a {
     border: 1px solid #000;
-    display: inline-block;
+    background-color: #bbb;
+    color: #000;
+    text-align: center;
     padding: 5px;
     width: 100px;
-    text-align: center;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
     margin-right: -6px;
-    background-color: #bbb;
     margin-bottom: -1px;
-    color: #000;
+    display: inline-block;
 }
 .btn > a.act {
     background-color: #fff;
     color: #1473aa;
 }
+
+/*탭*/
 .tab {
     border: 1px solid #000;
     width: 95%;
