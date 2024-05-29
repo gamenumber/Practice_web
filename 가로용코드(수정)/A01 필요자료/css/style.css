@@ -87,6 +87,7 @@ footer {
     width: 790px;
     height: 100px;
     float: left;
+    text-align: center;
 }
 .sns {
     border: 1px solid black;
