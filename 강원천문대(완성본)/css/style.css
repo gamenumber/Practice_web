@@ -8,85 +8,81 @@ body {
 }
 a {
     text-decoration: none;
+    color: #333;
 }
 .table {
-    border: 1px solid black;
     width: 1200px;
+    margin: auto;
 }
 header {
-    border: 1px solid black;
+    
     width: 1200px;
     height: 100px;
     position: relative;
     z-index: 10;
 }
 .logo {
-    border: 1px solid black;
+   
     width: 200px;
     height: 100px;
     float: left;
 }
 .navi {
-    border: 1px solid black; 
+   
     width: 600px;
     height: 100px;
     float: right;
 }
 .slide {
-    border: 1px solid black; 
     width: 1200px;
     height: 300px;
     overflow: hidden;
 }
 .ani {
-    border: 1px solid black; 
     font-size: 0;
 }
 .items { 
-    border: 1px solid black;
     width: 1200px;
     height: 200px;
 }
 .news {
-    border: 1px solid black;
     width: 490px;
     height: 200px;
     float: left;
 }
 .banner {
-    border: 1px solid black;
     width: 350px;
     height: 200px;
     float: left;
 }
 .short {
-    border: 1px solid black;
     width: 350px;
     height: 200px;
     float: left;
 }
-footer {
-    border: 1px solid black;
+footer{
     width: 1200px;
     height: 100px;
 }
-.f-logo {
-    border: 1px solid black; 
+
+.f-logo{
+    
     width: 200px;
     height: 100px;
-    float: left; 
+    float: left;
 }
-.f-sub {
+.f-sub{
     width: 1000px;
     float: left;
     text-align: center;
 }
-.f-menu {
+.f-menu{
     height: 50px;
 }
-.copy {
+.copy{
     height: 50px;
 }
+
 
 
 /* 네비 */
@@ -99,7 +95,6 @@ footer {
     box-sizing: border-box;
 }
 .menu > li > a {
-    background-color: #fff;
     border: 1px solid black;
     display: block;
     text-align: center;
@@ -118,7 +113,6 @@ footer {
 }
 .sub > a {
     background-color: black;
-    border: 1px solid white;
     display: block;
     text-align: center;
     padding: 5px;
