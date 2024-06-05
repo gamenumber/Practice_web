@@ -14,21 +14,18 @@ a {
     width: 1200px;
     margin: auto;
 }
-header {
-    
+header {   
     width: 1200px;
     height: 100px;
     position: relative;
     z-index: 10;
 }
 .logo {
-   
     width: 200px;
     height: 100px;
     float: left;
 }
 .navi {
-   
     width: 600px;
     height: 100px;
     float: right;
@@ -66,7 +63,6 @@ footer{
 }
 
 .f-logo{
-    
     width: 200px;
     height: 100px;
     float: left;
@@ -82,8 +78,6 @@ footer{
 .copy{
     height: 50px;
 }
-
-
 
 /* 네비 */
 .menu {
@@ -188,7 +182,6 @@ footer{
 
 
 /* 각종 애니메이션 */
-
 @keyframes slide {
     0% {opacity: 0;}
     5% {opacity: 1;
