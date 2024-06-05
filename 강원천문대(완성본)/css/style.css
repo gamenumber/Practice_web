@@ -141,19 +141,19 @@ footer{
     margin-top: 5px;
 }
 .btn > a {
-    border: 1px solid black;
+    border: 1px solid #000;
+    background-color: #bbb;
     display: inline-block;
-    padding: 5px;
     width: 100px;
-    text-align: center;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
-    background-color: #bbb;
+    text-align: center;
+    padding: 5px;
 }
 .btn > a.act {
-    background-color: #fff;
+    background-color: #1a84ca;
 }
-.tab1 {
+.tab1, .tab2 {
     border: 1px solid black;
     width: 95%;
 }
@@ -170,9 +170,7 @@ footer{
     font-weight: normal;
 }
 .tab2 {
-    border: 1px solid #000;
     text-align: center;
-    width: 95%;
     display: none;
 }
 .tab2 > a > img {
