@@ -107,7 +107,7 @@ footer > div {
 .btn > a.act {
     background-color: #5dd2f0;
 }
-.tab1 {
+.tab1 , .tab2{
     border: 1px solid #000;
     width: 95%;
 }
@@ -121,9 +121,7 @@ footer > div {
     font-weight: normal;
 }
 .tab2 {
-    border: 1px solid #000; 
     text-align: center;
-    width: 95%;
     display: none;
 }
 .tab2 > a > img {
