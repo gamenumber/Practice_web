@@ -132,6 +132,7 @@ footer > div {
     background-color: #fff;
     color: #000;
 }
+
 /* 공지사항 & 갤러리 */
 .tab-inner {
     width: 95%;
@@ -160,29 +161,22 @@ footer > div {
 .tab2 {
     text-align: center;
 }
-.tab2 img {
+.tab2 > a > img {
     width: 80px;
     padding-top: 45px;
 }
 
-.tab1 a {
+.tab1 > a {
     display: block;
     padding: 5px;
     border-bottom: 1px solid #000;
     overflow: hidden;
 }
-.tab1 a em,
-.tab1 a b {
+.tab1 > a >  b {
     display: block;
     float: right;
     font-weight: normal;
     font-style: normal;
-}
-.tab1 a em {
-    width: 70%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .tab1 > a > b {
     width: 30%;
