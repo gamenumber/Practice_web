@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 기본세팅 */
+body {}
+a {}
+
+/* 와이어프레임 */
+.table {}
+header {}
+.logo {}
+.navi {}
+.slide {}
+.ani {}
+.items {}
+.news {}
+.banner {}
+.short {}
+footer {}
+.f-logo {}
+.copy {}
+.sns {}
+
+/* 네비 */
+.menu {}
+.menu > li {}
+.menu > li > a {}
+.menu > li:hover > a {}
+.sub {}
+.sub > a {}
+.sub > a:hover {}
+
+/* 공지사항 */
+.btn {}
+.btn > a {}
+.btn > a.act {}
+.tab1, .tab2 {
+    border: 1px solid #000;
+    width: 95%;
+}
+.tab1 > a {}
+.tab1 > a > b {}
+.tab1 > a:last-child {}
+.tab2 {}
+.tab2 > a > img {}
+
+/* 팝업 */
+.pop {}
+.win {}
+.win > h2 {}
+.cl-pop {}
+
+/* ani 요소 */
+.ani > a {}
+.ani > a:nth-child(1) {}
+.ani > a:nth-child(2) {}
+.ani > a:nth-child(3) {}
+
+/* 애니메이션 */
+@keyframes fadeinout {
+
+}
