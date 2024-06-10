@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* 기본세팅 */
+body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 와이어프레임 */
+.table {}
+header {}
+.logo {}
+.navi {}
+.slide {}
+.ani {}
+.items {}
+.news {}
+.banner {}
+.short {}
+footer {}
+.f-logo {}
+.copy {}
+.sns {}
+
+/* 네비게이션 */
+.menu {}
+.menu > li {}
+.menu > li > a {}
+.menu > li:hover > a {}
+.sub {}
+.sub > a {}
+.sub > a:hover {}
+
+/* 공지사항 & 갤러리 */
+.btn {}
+.btn > a {}
+.btn > a.act {}
+
+
+
+/* 애니요소 */
+.ani > a {}
+.ani > a:nth-child(1) {}
+.ani > a:nth-child(2) {}
+.ani > a:nth-child(3) {}
+
+/* 애니메이션 */
