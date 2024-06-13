@@ -122,13 +122,13 @@ footer > div {
     color: #ffffff;
 }
 .sub {
-    border: 1px solid #000;
     position: absolute;
-    top: -30px;
-    left: 100%;
+    border: 1px solid #000;
     background-color: #000;
-    width: 100%;
-    height: 200px;
+    left: 100%;
+    top: -30px;
+    width: 200px;
+    height: 100%;
     display: none;
 }
 .sub > a {
