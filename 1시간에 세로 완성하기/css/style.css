@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+/* 기본세팅 */
+body {
+    background-color: #fff;
+    margin: 0;
+    color: #000;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* 와이어프레임 */
+.table {
+    border: 1px solid violet;
+    width: 1000px;
+}
+.table > div {
+    border: 1px solid violet;
+    float: left;
+    box-sizing: border-box;
+}
+.left {
+    width: 200px;
+}
+.right {
+    width: 800px;
+}
+header {
+    border: 1px solid violet;
+    width: 200px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+header > div {
+    border: 1px solid violet;
+    width: 200px;
+}
+.logo {
+    height: 200px;
+}
+.navi {
+    height: 300px;
+}
+
+.slide {
+    border: 1px solid violet;
+    width: 800px;
+    height: 350px;
+}
+.ani {
+    border: 1px solid violet;
+    width: 800px;
+    height: 350px;
+    font-size: 0;
+}
+.items {
+    border: 1px solid violet;
+    width: 800px;
+    height: 200px;
+}
+.items > div {
+    border: 1px solid violet;
+    float: left;
+    height: 200px;
+}
+.news {
+    width: 300px;
+}
+.gallery {
+    width: 290px;
+}
+.short {
+    width: 200px;
+}
+footer {
+    border: 1px solid violet;
+    width: 800px;
+    height: 100px;
+}
+footer > div {
+    border: 1px solid violet;
+    height: 100px;
+    float: left;
+}
+.f-logo {
+    width: 200px;
+}
+.copy {
+    width: 390px;
+}
+.family {
+    width: 200px;
+    text-align: center;
+}
+
+/* 네비 */
+.menu {
+    list-style: none;
+    position: relative;
+    z-index: 100;
+    padding: 0px;
+    width: 100%;
+}
+.menu > li {
+    box-sizing: border-box;
+}
+.menu > li > a {
+    display: block;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.menu > li:hover > a {
+    transition: 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+}
+.sub {
+    border: 1px solid #000;
+    position: absolute;
+    top: -30px;
+    left: 100%;
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+.sub > a {
+    display: block;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.sub > a:hover {
+    transition: 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* 공지사항 & 갤러리 */
+.btn1 {
+    margin-top: 5px;
+}
+.btn1 > a {
+    border: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    padding: 2px;
+    margin-bottom: -1px;
+    background-color: #31ccf3;
+}
+.btn2 {
+    margin-top: 5px;
+}
+.btn2 > a {
+    border: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+    padding: 2px;
+    border-bottom: none;
+    margin-bottom: -1px;
+    background-color: #31ccf3;
+}
+.tab1, .tab2 {
+    border: 1px solid #000;
+    width: 95%;
+}
+.tab1 > a {
+    padding: 3px;
+    display: block;
+    border-bottom: 1px solid #000;
+}
+.tab1 > a > b {
+    font-weight: normal;
+    float: right;
+}
+.tab1 > a:last-child {
+    border-bottom: none;
+}
+.tab2 {
+    text-align: center;
+}
+.tab2 > a > img {
+    width: 80px;
+    padding: 3px;
+}
+
+
+/* 팝업 */
+.pop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+.win {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.win > h2 {
+    text-align: center;
+}
+.cl-pop {
+    padding: 5px;
+    border: 1px solid #000;
+    float: right;
+}
+
+/* 애니요소 */
+.ani > a {
+    position: absolute;
+    visibility: hidden;
+    animation: fadeinout 10s linear infinite;
+}
+.ani > a:nth-child(1) {
+    animation-delay: 0s;
+}
+.ani > a:nth-child(2) {
+    animation-delay: 3.5s;
+}
+.ani > a:nth-child(3) {
+    animation-delay: 7s;
+}
+
+/* 애니메이션 */
+@keyframes fadeinout {
+    0% {opacity: 0;}
+    5% {opacity: 1;
+        visibility: visible;}
+    35% {opacity: 1;}
+    40% {opacity: 0;
+        visibility: hidden;}
+    100% {opacity: 0;}
+}

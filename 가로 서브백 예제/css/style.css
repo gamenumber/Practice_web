@@ -212,10 +212,10 @@ footer{
 .sub-back {
     position: absolute;
     background-color: #000;
-    width: 1200px;
-    height: 110px;
     top: 100%;
     left: 0;
+    width: 1200px;
+    height: 110px;
     z-index: -1;
     display: none;
 }
