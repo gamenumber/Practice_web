@@ -211,11 +211,11 @@ footer{
 /* 서브백 */
 .sub-back {
     position: absolute;
-    background-color: #000;
     top: 100%;
     left: 0;
     width: 1200px;
     height: 110px;
+    background-color: #000;
     z-index: -1;
     display: none;
 }
