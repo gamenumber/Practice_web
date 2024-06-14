@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* 기본세팅 */
+
+/* 와이어프레임 */
+/* 네비게이션 */
+/* 공지사항 & 갤러리 */
+.btn {}
+.btn > a {}
+.btn > a.act {
+    background-color: #4623df;
+}
+.tab1 , .tab2 {
+    border: 1px solid #000;
+    width: 95%;
+}
+/* ani요소 -> 페이드인 & 페이드 아웃 */
+.ani > a {
+    position: absolute;
+    visibility: hidden;
+    animation: fadeinout 10s linear infinite;
+}
+.ani > a:nth-child(1) {
+    animation-delay: 0s;
+}
+.ani > a:nth-child(2) {
+    animation-delay: 3.5s;
+}
+.ani > a:nth-child(3) {
+    animation-delay: 7s;
+}
+
+/* 팝업 */
+.pop {
+    position: absolute;
+    background-color: #00000059;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+.win {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+.win > h2 {
+    text-align: center;
+}
+.cl-pop {
+    float: right;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+/* 애니메이션 */
+@keyframes fadeinout {
+    0% {opacity: 0;}
+    5% {opacity: 1;
+        visibility: visible;}
+    35% {opacity: 1;}
+    40% {opacity: 0;
+        visibility: hidden;}
+    100% {opacity: 0;}
+}
