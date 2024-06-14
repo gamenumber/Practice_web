@@ -12,20 +12,74 @@ a {
 }
 
 /* 와이어프레임 */
-.table {}
-header {}
-.logo {}
-.navi {}
-.slide {}
-.ani {}
-.items {}
-.news {}
-.gallery {}
-.short {}
-footer {}
-.f-logo {}
-.copy {}
-.family {}
+.table {
+    width: 1200px;
+}
+.table > div {
+    width: 1200px;
+}
+header {
+    height: 100px;
+    margin: auto;
+    z-index: 100;
+    position: relative;
+}
+header > div {
+    height: 100px;
+}
+.logo {
+    width: 200px;
+    float: left;
+}
+.navi {
+    width: 600px;
+    float: right;
+}
+.slide {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.ani {
+    width: 1200px;
+    height: 300px;
+    font-size: 0;
+}
+.items {
+    width: 1200px;
+    height: 200px;
+}
+.items > div {
+    height: 200px;
+    float: left;
+}
+.news {
+    width: 425px;
+}
+.gallery {
+    width: 415px;
+}
+.short {
+    width: 350px;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+}
+footer > div {
+    height: 100px;
+    float: left;
+}
+.f-logo {
+    width: 200px;
+}
+.copy {
+    width: 790px;
+    text-align: center;
+}
+.family {
+    width: 200px;
+}
 
 /* 네비게이션 */
 .menu {
@@ -72,14 +126,29 @@ footer {}
 }
 .btn1 > a {
     border: 1px solid #000;
-    border-radius: 5px 5px 0 0;
+    border-radius: 3px;
+    border-bottom: -1px;
+    padding: 3px;
+    border-bottom: none;
+    background-color: #1cf0ff;
+}
+.btn2 {
+    margin-top: 5px;
+}
+.btn2 > a {
+    border: 1px solid #000;
+    border-radius: 3px;
+    border-bottom: -1px;
+    padding: 3px;
+    border-bottom: none;
+    background-color: #1cf0ff;
 }
 .tab1 , .tab2 {
     border: 1px solid #000;
     width: 95%;
 }
 .tab1 > a {
-
+    display: block;
     padding: 3px 5px;
     border-bottom: 1px solid #000;
 }
@@ -90,10 +159,12 @@ footer {}
 .tab1 > a:last-child {
     border-bottom: none;
 }
-.tab2 {}
-.tab2 > a {
-    width: 130px;
-    padding: 5px;
+.tab2 {
+    text-align: center;
+}
+.tab2 > a > img {
+    width: 120px;
+    padding: 3px;
 }
 
 
@@ -110,6 +181,14 @@ footer {}
 }
 .win {
     position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    transform: translate(-50% , -50%);
 }
 .win > h2 {
     text-align: center;
