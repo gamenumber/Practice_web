@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/* 기본세팅 */
+body {
+    background-color: #fff;
+    margin: 0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 와이어프레임 */
+.table {
+    width: 1200px;
+    margin: auto;
+}
+header {
+    width: 1200px;
+    height: 100px;
+    z-index: 100;
+    position: relative;
+}
+header > div {
+    height: 100px;
+}
+.logo {
+    width: 200px;
+    float: left;
+}
+.logo > a > img {
+    padding: 30px;
+}
+.navi {
+    width: 600px;
+    float: right;
+}
+.slide {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.ani {
+    width: 1200px;
+    height: 900px;
+    font-size: 0;
+    animation: slide 10s linear infinite;
+    position: relative;
+}
+.items {
+    width: 1200px;
+    height: 200px;
+}
+.items > div {
+    height: 200px;
+}
+.news {
+    width: 425px;
+    float: left;
+}
+.gallery {
+    width: 415px;
+    float: left;
+}
+.short {
+    width: 350px;
+    float: right;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+}
+footer > div {
+    text-align: center;
+    float: left;
+}
+.copy {
+    width: 990px;
+    height: 100px;
+}
+.sns {
+    width: 200px;
+    height: 50px;
+}
+.sns > a > img {
+    padding: 10px;
+}
+.family {
+    width: 200px;
+    height: 50px;
+}
+
+/* 네비 */
+.menu {
+    list-style: none;
+    padding-top: 50px;
+}
+.menu > li {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+.menu > li > a {
+    display: block;
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.menu > li:hover > a {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.sub {
+    display: none;
+}
+.sub > a {
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.sub > a:hover {
+    border: 1px solid #000;
+    background-color: #ffffff;
+    color: #333;
+    transition: 0.5s;
+}
+
+/* 공지사항 & 갤러리 */
+.btn1 {
+    margin-top: 5px;
+}
+.btn1 > a {
+    border: 1px solid #000;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    background-color: #27a6fa;
+    padding: 3px;
+    text-align: center;
+}
+.btn2 {
+    margin-top: 5px;
+}
+.btn2 > a {
+    border: 1px solid #000;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    background-color: #27a6fa;
+    padding: 3px;
+    text-align: center;
+}
+.tab1 , .tab2 {
+    border: 1px solid #000;
+    width: 95%;
+}
+.tab1 > a {
+    display: block;
+    padding: 3px 5px;
+    border-bottom: 1px solid #000;
+}
+.tab1 > a > b {
+    font-weight: normal;
+    float: right;
+}
+.tab1 > a:last-child {
+    border-bottom: none;
+}
+.tab2 {
+    text-align: center;
+}
+.tab2 > a > img {
+    width: 120px;
+    padding: 3px;
+}
+
+/* 팝업 */
+.pop {
+    position: absolute;
+    background-color: #00000044;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+.win {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+.win > h2 {
+    text-align: center;
+}
+.cl-pop {
+    float: right;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+/* 서브백 */
+.sub-back {
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    top: 100%;
+    width: 1200px;
+    height: 150px;
+    z-index: -1;
+    display: none;
+}
+
+/* 애니메이션 (세로로)*/
+@keyframes slide {
+    0% {margin-top: 0;}
+    30% {margin-top: 0;}
+    35% {margin-top: -300px;}
+    65% {margin-top: -300px;}
+    70% {margin-top: -600px;}
+    95% {margin-top: -600px;}
+    100% {margin-top: 0;}
+}
